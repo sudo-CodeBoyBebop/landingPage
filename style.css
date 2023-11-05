@@ -1,0 +1,71 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    background-color: black;;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    height: 30vh;
+    width: 100%;
+}
+
+
+
+#navbar {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+#links {
+    list-style: none;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    padding-right:  25px;
+    gap: 25px;
+    font-size: 18px;
+}
+
+.hero {
+    width: 40%;
+    height: 15vh;
+}
+
+.hero-text {
+    font-size: 20px;
+    color: white;
+}
+
+.hero-banner {
+    display: flex;
+}
+
+#information {
+    color: white;
+    background-color: white;
+    height: 25vh;
+    width: 100%;
+}
+
+#testimonials {
+    background-color: #E5E7EB;
+    font: 36px light italic #1F2937;
+    height: 25vh;
+    width: 100%;
+}
+
+#action {
+    background-color: white;
+    height: 20vh;
+    width: 100%;;
+}
+
+
+#footer {
+    background-color: #1F2937;
+    height: 10vh;
+    width: 100%;
+}
